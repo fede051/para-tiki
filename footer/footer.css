@@ -1,0 +1,30 @@
+footer { 
+    height: 40vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.iconos-footer { 
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+
+}
+
+.iconos-footer img { 
+    width: 5em;
+    height: 5em;
+}
+
+.iconos-footer img:hover  { 
+    cursor: pointer;
+}
+
+.texto { 
+    margin-top: 5em;
+}
+p { 
+    text-align: center;
+}

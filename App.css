@@ -1,0 +1,66 @@
+.main { 
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://i.pinimg.com/474x/cf/9a/e8/cf9ae8ca689a12b0f30b48098b72f106.jspg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: black;
+}
+
+
+.main-error {
+  box-shadow: teal 1px 1px 10px;
+  border-radius: 100%;
+  width: 70% ;
+  height: 70vh;
+  background: rgba(0, 0, 0, 0.473);
+  
+}
+.h1 { 
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.main-error h1 { 
+  text-align: center;
+  margin-top: 2em;
+  box-shadow: gray 1px 1px 6px ;
+  border-radius: 50px;
+  width: 100px;
+  padding: 10px;
+  letter-spacing: .2em;
+  
+}
+
+.main-error h3 { 
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.main-error span { 
+  color: red;
+  font-size: 2em;
+}
+.main-error-flex { 
+  display: flex;
+  justify-content: center;
+}
+
+button { 
+  margin-top: 3em;
+  padding: 1em 3em;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  background: rgba(110, 51, 51, 0.596);
+  border-style: none;
+
+}
+
+button:hover {
+  cursor: pointer;
+}

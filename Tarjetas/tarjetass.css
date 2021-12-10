@@ -1,0 +1,31 @@
+.contenedor { 
+  background-color: black;
+}
+
+.contenedor-a { 
+        background-color: teal;
+        width: 70%;
+        margin: auto;
+        border-radius: 300px;
+        box-shadow: white 1px 1px 10px;
+        height: 70vh;
+}
+
+.contenedor-a h1 { 
+    text-align: center;
+    font-size: 4em;
+}
+
+.metodos { 
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.metodos p { 
+    font-size: 3em;
+    font-weight: bold;
+}
+.metodos img { 
+      width: 150px;
+}
